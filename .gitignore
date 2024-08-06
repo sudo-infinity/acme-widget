@@ -1,0 +1,83 @@
+# Ignore bundler config
+/.bundle
+
+# Ignore gems and the Ruby version file
+/vendor/bundle
+/.ruby-version
+/.ruby-gemset
+
+# Ignore log files
+/log/*
+!/log/.keep
+
+# Ignore temporary files
+/tmp/*
+!/tmp/.keep
+
+# Ignore documentation
+/doc/*
+/yardoc/
+/.yardoc/
+/.rdoc
+/coverage/
+/coverage/*
+
+# Ignore system files
+.DS_Store
+.idea/
+/.vscode/
+/.vscode/*
+
+# Ignore build and deployment files
+/coverage/
+/tmp/pids/
+/tmp/cache/
+/tmp/sockets/
+/tmp/webpacker/
+/public/assets/
+/public/packs/
+/node_modules/
+/byebug_history
+/coverage/
+spec/examples.txt
+rerun.txt
+
+# Ignore OS generated files
+*.swp
+*.swo
+*~
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Ignore other unwanted files
+*.rbc
+capybara-*.html
+.rspec
+.rubocop.yml
+.sass-cache/
+.yarn-integrity
+.byebug_history
+.rdebug_history
+*.rbc
+capybara-*.html
+*.orig
+
+# Ignore test coverage reports
+/coverage/
+/coverage/*
+
+# Ignore bundler config
+/.bundle
+/vendor/bundle
+
+# Ignore editor config
+/.project
+/.settings
+/.metadata
+/.classpath
+/.vscode/
+/.idea
